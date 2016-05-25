@@ -17,7 +17,7 @@ Serial# 1234998871109
 var data = '';
 var endpoint = "ec2-54-82-240-2.compute-1.amazonaws.com:27017" ;
 var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb://ec2-54-82-240-2.compute-1.amazonaws.com:27017,ec2-54-174-128-21.compute-1.amazonaws.com:27017,ec2-54-172-180-67.compute-1.amazonaws.com:27017/test?w=0&readPreference=secondary";
+var url = "mongodb://ec2-54-82-240-2.compute-1.amazonaws.com:27017,ec2-54-174-128-21.compute-1.amazonaws.com:27017,ec2-54-172-180-67.compute-1.amazonaws.com:27017/test?w=0&readPreference=nearest";
 
 // added in v3: handlebars
 // https://www.npmjs.org/package/express3-handlebars
